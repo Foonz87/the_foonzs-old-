@@ -2,13 +2,14 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 28px;
+  font-size: 24px;
   padding-top: 20px;
-  line-height:
+  font-weight: normal;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 48px;
+  font-weight: normal;
 }
 
 h3 {
