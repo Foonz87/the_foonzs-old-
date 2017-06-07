@@ -3,11 +3,27 @@
   <head>
     <title>The_Foonzs - The life of Rescues</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src=“https://code.jquery.com/jquery-3.2.1.min.js” integrity=“sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=” crossorigin=“anonymous”></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <h1>The Foonzs</h1>
     <h2>Our Stories</h2>
-    <h4>Charlie - Atticus - Samara - Brooklyn - Bellatrix - Prongs</h4>
+    <h3>Charlie - Atticus - Samara - Brooklyn - Bellatrix - Prongs</h3>
+
+    <div class="gallery">
+        <img class="mySlides" src="images/charlie.jpg">
+        <img class="mySlides" src="images/atticus.jpg">
+        <img class="mySlides" src="images/samara.jpg">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+    </div>
+
     <div class="social">
       <a href="http://www.facebook.com/the.foonzs">Facebook</a> - <a href="http://www.instagram.com/the_foonzs">Instagram</a>
     </div>
