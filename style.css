@@ -19,10 +19,10 @@ h3 {
   margin: 0px;
   font-weight: normal;
   font-size: 18px;
+  padding-bottom: 10px;
 }
 
 div.social {
-  padding-top: 320px;
   font-size: 14px;
 }
 
@@ -31,9 +31,17 @@ div.social {
 .social a:hover { color: orange; }
 .social a:active { color: #000000; }
 
-div.gallery {
+div.photos{
+  height: 250px;
 }
 
-img.mySlides {
-  max-width: 320px;
+img.family {
+  max-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
+.family {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
