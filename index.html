@@ -7,31 +7,24 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <h1>The Foonzs</h1>
-    <h2>Our Stories</h2>
-    <h3>Charlie - Atticus - Samara - Brooklyn - Bellatrix - Prongs</h3>
-
-    <div class="gallery w3-display-container w3-content">
-      <img class="family" src="images/charlie.jpg" style="display: block;"/>
-      <img class="family" src="images/atticus.jpg" />
-      <img class="family" src="images/samara.jpg" />
-      <img class="family" src="images/brooklyn.jpg" />
-      <img class="family" src="images/bellatrix.jpg" />
-      <img class="family" src="images/prongs.jpg" />
-
-        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
-        
-    </div>
-
-    <div class="social">
-      <a href="http://www.facebook.com/the.foonzs">Facebook</a> - <a href="http://www.instagram.com/the_foonzs">Instagram</a>
-    </div>
+      <h1><img src="images/paw.png" class="paw" /> The Foonzs <img src="images/paw.png" class="paw" /></h1>
+      <h2>Our Stories</h2>
+      <h3>
+          <input type="button" id="charlie" value="Charlie" onclick="imageCharlie()">
+          -
+          <input type="button" id="atticus" value="Atticus" onclick="imageAtticus()">
+          -
+          <input type="button" id="samara" value="Samara" onclick="imageSamara()">
+          -
+          <input type="button" id="brooklyn" value="Brooklyn" onclick="imageBrooklyn()">
+          -
+          <input type="button" id="bellatrix" value="Bellatrix" onclick="imageBellatrix()">
+          -
+          <input type="button" id="prongs" value="Prongs" onclick="imageProngs()">
+      </h3>
+      <img src="images/charlie.jpg" id="image" />
+      <div class="social">
+        <a href="http://www.facebook.com/the.foonzs" target="_blank">Facebook</a> - <a href="http://www.instagram.com/the_foonzs" target="_blank">Instagram</a>
+      </div>
   </body>
 </html>

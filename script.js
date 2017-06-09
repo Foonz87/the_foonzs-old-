@@ -1,26 +1,29 @@
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("family");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
+function imageCharlie()
+  {
+  document.getElementById('image').src="images/charlie.jpg";
   }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
+
+function imageAtticus()
+  {
+  document.getElementById('image').src="images/atticus.jpg";
   }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " w3-white";
-}
+
+function imageSamara()
+  {
+  document.getElementById('image').src="images/samara.jpg";
+  }
+
+function imageBrooklyn()
+  {
+  document.getElementById('image').src="images/brooklyn.jpg";
+  }
+
+function imageBellatrix()
+  {
+  document.getElementById('image').src="images/bellatrix.jpg";
+  }
+
+function imageProngs()
+  {
+  document.getElementById('image').src="images/prongs.jpg";
+  }
