@@ -2,17 +2,15 @@ body {
   text-align: center;
 }
 
-/*div.background{
-  background-color: white;
-  max-width: 500px;
-  max-height: 800px;
-}*/
-
 h1 {
   font-size: 24px;
   padding-top: 8px;
   font-weight: normal;
   margin: 0px;
+}
+
+img.paw {
+  max-height: 18px;
 }
 
 h2 {
@@ -29,18 +27,6 @@ h3 {
   padding-bottom: 18px;
 }
 
-p{
-  margin: 0;
-}
-
-img {
-  max-height: 350px;
-}
-
-img.paw {
-  max-height: 18px;
-}
-
 input{
   background: none;
   color: inherit;
@@ -50,13 +36,24 @@ input{
   cursor: pointer;
 }
 
-div.social {
-  font-size: 14px;
-  padding-top: 8px;
+img {
+  max-width: 440px;
+}
+
+p {
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 span.aboutPets {
   display: none;
+}
+
+div.social {
+  font-size: 14px;
 }
 
 .social a:link { color: orange; }
